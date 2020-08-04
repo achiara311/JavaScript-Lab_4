@@ -1,0 +1,44 @@
+.toggle {
+  background-color: blue;
+  color: white;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.coin {
+  border-radius: 50%;
+}
+
+.penny {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+}
+.quarter {
+  width: 70px;
+  height: 70px;
+  background-color: darkkhaki;
+}
+
+.nickel {
+  width: 55px;
+  height: 55px;
+  background-color: grey;
+}
+.dime {
+  width: 40px;
+  height: 40px;
+  background-color: darkgrey;
+}
+
+.light-bulb {
+  width: 100px;
+  height: 200px;
+  background-color: dimgrey;
+}
+
+.light {
+  background-color: gold;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript Lab 4</title>
+  </head>
+  <body>
+    <section>
+      <p class="total">Total $0.00</p>
+      <button class="products" data-amount="2">Lime Cola $2.00</button>
+      <button class="products" data-amount="3">Salted Peanuts $3.00</button>
+      <button class="products" data-amount="4">Chocolate Bar $4.00</button>
+      <button class="products" data-amount="6">Fruit Gummies $6.00</button>
+    </section>
+    <section>
+      <form class="make-money">
+        <label for="quantity">How Many?</label>
+        <input
+          type="number"
+          id="quantity"
+          placeholder="Enter your number"
+          name="quantity"
+        />
+        <label for="coin">Which coin?</label>
+        <select name="coin" id="coin">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel </option>
+          <option value="dime">Dime </option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button class="submit">Make money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </section>
+
+    <section>
+      <div class="light-bulb">Light bulb</div>
+      <button class="on switch">On</button>
+      <button class="off switch">Off</button>
+      <button class="toggle switch">Toggle</button>
+      <button class="end switch">End</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
